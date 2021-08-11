@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_settings"
+        app:showAsAction="never"
+        android:title="Help Menu">
+
+        <menu>
+        <item android:title="Contact Details"
+            android:id ="@+id/SubItem1"
+            app:showAsAction = "never">
+        </item>
+
+        <item android:title="Security Issue"
+            android:id ="@+id/SubItem2"
+            app:showAsAction = "never">
+        </item>
+
+        <item android:title="Account change"
+            android:id ="@+id/SubItem3"
+            app:showAsAction = "never">
+        </item>
+        <item android:title="Reset Password"
+            android:id ="@+id/SubItem4"
+            app:showAsAction = "never">
+        </item>
+        </menu>
+    </item>
+</menu>
+
+
